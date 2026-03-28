@@ -1,0 +1,31 @@
+# ML Workflow Assignment
+
+## Problem Overview
+The goal is to predict whether a customer will make a repeat purchase within 30 days using historical order data.
+
+---
+
+## Task 1
+
+### Label Column
+**repeat_purchase_flag**  
+This is the target variable because it indicates whether the customer made a repeat purchase within 30 days, which is the outcome we want to predict.
+
+### Data Leakage Column
+**discount_used_on_repeat_order**  
+This column introduces data leakage because it contains information about the repeat purchase itself, which would not be available at the time of making predictions.
+
+---
+
+## Task 2
+
+### 1. Exploratory Data Analysis (EDA)
+EDA is necessary to understand the dataset, including distributions, missing values, outliers, and relationships between variables, which informs better modeling decisions.
+
+### 2. Data Preprocessing and Feature Engineering
+This step ensures the data is clean and properly formatted, and helps create meaningful features, all of which are critical for improving model performance and reliability.
+
+---
+
+## Conclusion
+Before training complex models like gradient boosting, it is important to first understand and prepare the data to avoid errors, data leakage, and poor model performance.
